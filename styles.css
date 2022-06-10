@@ -1,1 +1,30 @@
-/* your code */
+*{
+    box-sizing: border-box;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+
+    
+  }
+ 
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  } 
+  thead{
+      background-color: rgb(165, 152, 202);
+      
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: 600;
+      
+  }
+   thead,tr{
+       line-height: 30px;
+       padding:8px;
+       
+   }
+   td{
+    padding:5px;
+   }
+   
